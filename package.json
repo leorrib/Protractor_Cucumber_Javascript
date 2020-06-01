@@ -1,0 +1,22 @@
+{
+  "name": "js_bdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ElementBasics.js",
+  "scripts": {
+    "test": "protractor ./src/conf.js",
+    "protractor": "./node_modules/protractor/built/cli.js",
+    "webdriver-update": "./node_modules/.bin/webdriver-manager update"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "protractor": "5.4.4",
+    "protractor-jasmine2-html-reporter": "0.0.7",
+    "cucumber": "6.0.5",
+    "protractor-cucumber-framework": "6.2.1",
+    "cucumber-html-reporter": "5.2.0",
+    "chai": "4.2.0",
+    "chai-as-promised": "7.1.1"
+  }
+}

@@ -1,0 +1,273 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Performing a user registration in a website",
+    "line": 1,
+    "id": "performing-a-user-registration-in-a-website",
+    "tags": [],
+    "uri": "src\\tests\\features\\shop.feature",
+    "elements": [
+      {
+        "id": "performing-a-user-registration-in-a-website;filling-the-form",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Filling the form",
+        "tags": [
+          {
+            "name": "@form",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "src\\tests\\stepDefinitions\\hooks.js:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "User enters a website",
+            "match": {
+              "location": "src\\tests\\stepDefinitions\\steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5916000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "Fills a form with \"Leo\", \"leo@email.com\", \"leosenha\", \"male\" and \"student\"",
+            "match": {
+              "location": "src\\tests\\stepDefinitions\\steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 601000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Submits the form, checking if the confirmation message has \"53\" chars",
+            "match": {
+              "location": "src\\tests\\stepDefinitions\\steps.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 173000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "src\\tests\\stepDefinitions\\hooks.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": "performing-a-user-registration-in-a-website;filling-the-form",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Filling the form",
+        "tags": [
+          {
+            "name": "@form",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "src\\tests\\stepDefinitions\\hooks.js:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "User enters a website",
+            "match": {
+              "location": "src\\tests\\stepDefinitions\\steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 484000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "Fills a form with \"Lucas\", \"lucas@email.com\", \"lucassenha\", \"\" and \"employed\"",
+            "match": {
+              "location": "src\\tests\\stepDefinitions\\steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 607000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Submits the form, checking if the confirmation message has \"53\" chars",
+            "match": {
+              "location": "src\\tests\\stepDefinitions\\steps.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 130000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "src\\tests\\stepDefinitions\\hooks.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": "performing-a-user-registration-in-a-website;filling-the-form",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Filling the form",
+        "tags": [
+          {
+            "name": "@form",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "src\\tests\\stepDefinitions\\hooks.js:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "User enters a website",
+            "match": {
+              "location": "src\\tests\\stepDefinitions\\steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 317000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "Fills a form with \"Ana\", \"ana@email.com\", \"anasenha\", \"female\" and \"employed\"",
+            "match": {
+              "location": "src\\tests\\stepDefinitions\\steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 616000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Submits the form, checking if the confirmation message has \"53\" chars",
+            "match": {
+              "location": "src\\tests\\stepDefinitions\\steps.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 134000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "src\\tests\\stepDefinitions\\hooks.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
